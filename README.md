@@ -29,5 +29,5 @@ skin_scanning/
 └── requirements.txt         # 클라우드 배포용 환경 설정
 ```
 
-## 바로 체험하기
-<https://skin-scanning-0626wctjmgncuswadbdwulcpj.streamlit/>
+## 바로 이용하기
+[Skin Scan Site](https://skin-scanning-0626wctjmgncuswadbdwulcpj.streamlit.app/)에서 서비스를 이용하실 수 있습니다.
