@@ -11,9 +11,6 @@ class MedicalDataLinker:
             self.db = json.load(f)
 
     def get_info_by_diagnosis(self, ai_prediction_key):
-        """
-        AI 예측 키(예: '진균_감염')를 받아 병무청 및 방사청 데이터를 반환
-        """
         result = self.db.get(ai_prediction_key)
         
         if result:
