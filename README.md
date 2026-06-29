@@ -18,7 +18,7 @@
 ## 저장소 구조 (Repository Structure)
 ```
 skin_scanning/
-├── app.py                   # 웹 UI 및 통합 컨트롤러 (Main Entry)
+├── app.py                   # 웹 UI 및 통합 컨트롤러
 ├── data/                    
 │   ├── integrated_db.json   # 융합 정적 DB 
 │   └── 의약품_조달계약_전처리데이터.xlsx
@@ -26,7 +26,7 @@ skin_scanning/
 │   └── classifier.py        # XAI 히트맵 생성 파이프라인
 ├── utils/                   
 │   └── data_loader.py       # JSON 데이터 로드 및 맵핑 유틸리티
-└── requirements.txt         # 클라우드 배포용 환경 설정 (CPU optimized)
+└── requirements.txt         # 클라우드 배포용 환경 설정
 ```
 
 ## 바로 체험하기
