@@ -1,0 +1,14 @@
+pandas
+openpyxl
+numpy
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+opencv-python
+grad-cam
+streamlit
+
+
+
+
+
