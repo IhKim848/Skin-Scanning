@@ -12,9 +12,9 @@
 ## 시스템 아키텍처 및 기술 스택
 * **Frontend:** React.js
 * **Backend:** FastAPI
-* **AI & Computer Vision:** PyTorch, Torchvision (MobileNetV2 pre-trained), pytorch-grad-cam, PIL
+* **AI & Computer Vision:** PyTorch, Torchvision, pytorch-grad-cam, PIL
 * **Data Processing:** Python, Pandas, JSON
-* **Deployment:** Streamlit Community Clou
+* **Deployment:** hugging face(server) & vercel
 
 ## 저장소 구조 
 ```
