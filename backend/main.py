@@ -1,5 +1,6 @@
 from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi import Response
 from PIL import Image
 import io
 import base64
@@ -57,3 +58,7 @@ async def predict_skin_disease(file: UploadFile = File(...)):
 @app.get("/")
 def read_root():
     return {"message": "Skin Scanning API Server is running!"}
+
+@app.get("/health")
+def health():
+    return {"status" : "ok"}

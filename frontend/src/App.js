@@ -34,7 +34,7 @@ function App() {
 
     try {
       // fast API 주소로 POST 요청
-      const response = await fetch("http://127.0.0.1:8000/api/predict", {
+      const response = await fetch("https://skin-scanning-api.onrender.com/api/predict", {
         method: "POST",
         body: formData,
       });

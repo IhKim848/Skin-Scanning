@@ -10,6 +10,3 @@ __pycache__/
 Thumbs.db
 .vscode/
 .idea/
-
-# 나중에 API 키 등을 쓸 경우 대비한 streamlit 보안 키
-.streamlit/secrets.toml
