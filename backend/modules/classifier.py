@@ -30,7 +30,7 @@ class SkinDiseaseClassifier:
         
         targets = [ClassifierOutputTarget(pred_idx)]
         grayscale_cam = self.cam(input_tensor=input_tensor, targets=targets)[0, :]
-        
+        grayscale_cam = np.where(grayscale_cam > 0.3, grayscale_cam, 0)
         rgb_img = np.array(image_pil.resize((224, 224))) / 255.0
         cam_image = show_cam_on_image(rgb_img, grayscale_cam, use_rgb=True)
         
