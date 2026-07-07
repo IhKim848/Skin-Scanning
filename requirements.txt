@@ -6,9 +6,6 @@ torch
 torchvision
 opencv-python-headless
 grad-cam
-streamlit
-
-
-
-
-
+fastapi
+uvicorn
+python-multipart
